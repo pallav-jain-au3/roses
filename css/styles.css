@@ -9,7 +9,7 @@ h1 {
   background-color: #332b3d;
 }
 
-.navbar-brand {
+.navbar-brand h1,i{
   font-size: 3rem;
 }
 
@@ -35,7 +35,7 @@ h1 {
 .banner-text {
   color: white;
   font-size: 3rem;
-}
+  margin: auto;  }
 
 .nav-link {
   color: #e58cdb;
@@ -46,8 +46,8 @@ h1 {
 }
 
 a.nav-link {
-  font-size: 1.5rem;
-  letter-spacing: .2rem;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
 }
 .banner {
   background-image: url(../images/roses_1.jpg);
@@ -120,7 +120,7 @@ hr.socket {
 }
 
 .video iframe {
-  width: 60vw;
+  width: 80vw;
   height: 60vh;
   margin-bottom: 2rem;
 }
@@ -149,8 +149,11 @@ small {
     font-size: 2rem;
   }
   .banner {
-
-    height: 50vh;
-
+height: 50vh;
+  }
+  .video iframe {
+    width: 80vw;
+    height: 40vh;
+    margin-bottom: 2rem;
   }
 }
