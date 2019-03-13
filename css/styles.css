@@ -10,7 +10,7 @@ h1 {
 }
 
 .navbar-brand h1,i{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .navbar-brand i {
@@ -51,7 +51,7 @@ a.nav-link {
 }
 .banner {
   background-image: url(../images/roses_1.jpg);
-  height: 60vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -147,6 +147,10 @@ small {
 @media (max-width:768px) {
   h1 {
     font-size: 2rem;
+    padding-top:3rem;
+  }
+  .navbar-brand h1,i{
+    font-size: 2rem;
   }
   .banner {
 height: 50vh;
@@ -156,4 +160,22 @@ height: 50vh;
     height: 40vh;
     margin-bottom: 2rem;
   }
+  .btn{
+    font-size:1.5rem;
+  }
+  .lead{
+    font-size: 1rem;
+  }
+}
+@media (max-width:450px){
+  h1 {
+    font-size: 1.5rem;
+    padding-top:1rem;
+  }
+  .navbar-brand h1,i{
+    font-size: 1.3rem;}
+
+    .lead{
+      font-size: .8rem;
+    }
 }
