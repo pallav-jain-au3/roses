@@ -1,0 +1,152 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.navbar {
+  background-color: #332b3d;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar-brand i {
+  color: #e58cdb;
+}
+
+.navbar-brand i h1 {
+  color: #e58cdb;
+  font-family: 'Dancing Script', cursive;
+  display: inline;
+}
+
+.icon {
+  background-color: #e58cdb;
+}
+
+.icon:hover {
+  background-color: #82ad2d;
+}
+
+.banner-text {
+  color: white;
+  font-size: 5rem;
+}
+
+.nav-link {
+  color: #e58cdb;
+}
+
+.nav-link:hover {
+  color: #82ad2d;
+}
+
+a.nav-link {
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.banner {
+  background-image: url(../images/roses_1.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#why-roses {
+  background-color: #e58cdb;
+}
+
+.btn {
+  font-family: 'Dancing Script', cursive;
+  background-color: #82ad2d;
+  font-size: 1.7rem;
+  font-weight: 900;
+  border-radius: 30px;
+  padding: 0 3%;
+  margin: 3%;
+}
+
+.heading {
+  color: #672a4e;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 3%;
+}
+
+hr.socket {
+  background-color: #672a4e;
+  width: 30%;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 5%;
+  width: 15rem;
+  height: 15rem;
+  margin: 1rem auto 2rem;
+}
+
+.card p {
+  margin: auto;
+}
+
+#roses-varieties .row img {
+  border-radius: 50%;
+}
+
+.roses-name {
+  font-size: 1rem;
+  border: 1px solid;
+  width: 15rem;
+  border-radius: 30px;
+  padding: 1% 2%;
+  background-color: #82ad2d;
+  color: white;
+  position: relative;
+  margin: -10% auto 1rem;
+}
+
+.roses {
+  margin: 2rem auto;
+}
+
+#roses-video {
+  background-color: #000;
+}
+
+.video iframe {
+  width: 60vw;
+  height: 60vh;
+  margin-bottom: 2rem;
+}
+
+#submission-form {
+  background-color: #e58cdb;
+  color: #672a4e;
+}
+
+.order {
+  width: 40vw;
+  margin: auto;
+}
+
+.footer {
+  background-color: #000;
+  color: #e58cdb;
+}
+
+small {
+  margin: auto;
+}
+
+@media (max-width:768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
